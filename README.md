@@ -3,7 +3,7 @@ Native daemon process for Android Apps, start your service automatically when it
 
 ## Build the source
 1. You must have [NDK](https://developer.android.com/tools/sdk/ndk/index.html) installed on your machine.
-2. Copy both the C source file (daemon.c) and Android.mk file) into your project directory.
+2. Copy both the C source file (daemon.c) and Android.mk file into your project directory.
 3. On your project directory, run `<NDKPath>/ndk-build`. Normally, it will create an executeable file in `libs/armeabi/` named `daemon_c`, which is excactly what we want.
 
 ## Integrate with your App
